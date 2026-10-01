@@ -425,7 +425,7 @@ const Home = () => {
     </div>
 
 
-    {/* ================= PORTRAIT ================= */}
+    {/* ================= anniversary ================= */}
 
     <div className="group relative mt-0 -rotate-1 transition duration-500 hover:z-30">
 
@@ -473,7 +473,7 @@ const Home = () => {
           </div>
 
           <h3 className="font-script text-2xl tracking-wide text-gray-800">
-            Portrait Photography
+            Anniversary Photography
           </h3>
 
           <div className="mx-auto mt-2 text-[10px] tracking-[0.35em] text-[#b49a72]">
@@ -485,7 +485,7 @@ const Home = () => {
           </p>
 
           <NavLink
-            to="/portfolio/portraits"
+            to="/portfolio/anniversary"
             className="mt-5 inline-flex items-center gap-2 rounded-full border border-[#a88962] bg-[#fffdfa] px-6 py-2.5 text-[10px] tracking-[0.18em] text-[#8b704e] uppercase shadow-sm transition duration-300 hover:bg-[#a88962] hover:text-white hover:shadow-md"
           >
             View More
@@ -591,7 +591,7 @@ const Home = () => {
     </div>
 
 
-    {/* ================= EVENTS ================= */}
+    {/* ================= birthday================= */}
 
     <div className="group relative mt-7 rotate-[-1.5deg] transition duration-500 hover:z-30">
 
@@ -639,7 +639,7 @@ const Home = () => {
           </div>
 
           <h3 className="font-script text-2xl tracking-wide text-gray-800">
-            Events Photography
+            Birthday Photography
           </h3>
 
           <div className="mx-auto mt-2 text-[10px] tracking-[0.35em] text-[#b49a72]">
@@ -651,7 +651,7 @@ const Home = () => {
           </p>
 
           <NavLink
-            to="/portfolio/events"
+            to="/portfolio/birthday"
             className="mt-5 inline-flex items-center gap-2 rounded-full border border-[#a88962] bg-[#fffdfa] px-6 py-2.5 text-[10px] tracking-[0.18em] text-[#8b704e] uppercase shadow-sm transition duration-300 hover:bg-[#a88962] hover:text-white hover:shadow-md"
           >
             View More
@@ -674,7 +674,7 @@ const Home = () => {
     </div>
 
 
-    {/* ================= PRODUCT ================= */}
+    {/* ================= Prtfolio ================= */}
 
     <div className="group relative -mt-0.75 rotate-1 transition duration-500 hover:z-30">
 
@@ -722,7 +722,7 @@ const Home = () => {
           </div>
 
           <h3 className="font-script text-2xl tracking-wide text-gray-800">
-            Product Photography
+            Portfolio page
           </h3>
 
           <div className="mx-auto mt-2 text-[10px] tracking-[0.35em] text-[#b49a72]">
@@ -734,7 +734,7 @@ const Home = () => {
           </p>
 
           <NavLink
-            to="/portfolio/products"
+            to="/portfolio/"
             className="mt-5 inline-flex items-center gap-2 rounded-full border border-[#a88962] bg-[#fffdfa] px-6 py-2.5 text-[10px] tracking-[0.18em] text-[#8b704e] uppercase shadow-sm transition duration-300 hover:bg-[#a88962] hover:text-white hover:shadow-md"
           >
             View More
@@ -762,6 +762,315 @@ const Home = () => {
           </div>
 
         </div>
+
+
+
+        {/* ================= CLIENT REVIEWS ================= */}
+
+<div className="relative overflow-hidden bg-[#f4eee3] px-4 py-12 md:px-8 md:py-14">
+
+  {/* BACKGROUND DECORATIONS */}
+
+  <div className="pointer-events-none absolute -left-8 top-8 hidden text-8xl text-[#b49a72]/10 md:block">
+    ❧
+  </div>
+
+  <div className="pointer-events-none absolute -right-8 bottom-4 hidden text-8xl text-[#b49a72]/10 md:block">
+    ❦
+  </div>
+
+
+  <div className="mx-auto max-w-7xl">
+
+    {/* ================= HEADING ================= */}
+
+    <div className="mb-9 text-center">
+
+      <p className="text-[9px] uppercase tracking-[0.4em] text-[#a88962]">
+        Kind Words From Our Clients
+      </p>
+
+      <h2 className="mt-2 font-serif text-3xl leading-tight text-[#4f473d] md:text-4xl">
+        Stories That
+        <span className="ml-2 italic text-[#a88962]">
+          Stay With Us
+        </span>
+      </h2>
+
+      <div className="mt-3 flex items-center justify-center gap-2">
+
+        <span className="h-px w-10 bg-[#d8c49b]"></span>
+
+        <span className="text-sm text-[#a88962]">
+          ❦
+        </span>
+
+        <span className="h-px w-10 bg-[#d8c49b]"></span>
+
+      </div>
+
+    </div>
+    </div>
+
+
+    {/* ================= REVIEW CARDS ================= */}
+
+    <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+
+
+      {/* ================= WEDDING ================= */}
+
+      <div className="group relative">
+
+        <div className="relative h-full bg-[#fffdfa] px-5 py-6 text-center shadow-[0_8px_25px_rgba(100,75,45,0.09)] ring-1 ring-[#e6dccb] transition duration-500 group-hover:-translate-y-1.5 group-hover:shadow-[0_15px_30px_rgba(100,75,45,0.16)]">
+
+          {/* ICON */}
+
+          <div className="mx-auto mb-3 flex h-11 w-11 items-center justify-center rounded-full border border-[#d8c49b] bg-[#f8f2e8] text-xl text-[#a88962] transition duration-500 group-hover:scale-110">
+            ♡
+          </div>
+
+          {/* STARS */}
+
+          <div className="mb-3 text-[10px] tracking-[0.18em] text-[#b49a72]">
+            ★ ★ ★ ★ ★
+          </div>
+
+          {/* REVIEW */}
+
+          <p className="text-xs leading-6 text-[#665d52]">
+            “Every photograph feels so natural and beautiful.
+            They captured all the little emotions of our special day.”
+          </p>
+
+          {/* DIVIDER */}
+
+          <div className="my-4 flex items-center justify-center gap-2">
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+            <span className="text-[10px] text-[#a88962]">❦</span>
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+          </div>
+
+          {/* NAME */}
+
+         {/* Client Info */}
+<div className="mt-4 flex items-center gap-3">
+
+  {/* Profile Icon */}
+  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#a66a2b] text-sm font-semibold text-white">
+    nk
+  </div>
+
+  {/* Name */}
+  <div>
+     <h3 className="font-serif text-base text-[#4f473d]">
+            Neha & Karan
+          </h3>
+
+          <p className="mt-1 text-[8px] uppercase tracking-[0.25em] text-[#a88962]">
+            Pre-Wedding
+          </p>
+  </div>
+
+</div>
+</div>
+
+      </div>
+
+
+      {/* ================= PRE WEDDING ================= */}
+
+      <div className="group relative lg:-translate-y-3">
+
+        <div className="relative h-full bg-[#fffdfa] px-5 py-6 text-center shadow-[0_8px_25px_rgba(100,75,45,0.09)] ring-1 ring-[#e6dccb] transition duration-500 group-hover:-translate-y-1.5 group-hover:shadow-[0_15px_30px_rgba(100,75,45,0.16)]">
+
+          {/* ICON */}
+
+          <div className="mx-auto mb-3 flex h-11 w-11 items-center justify-center rounded-full border border-[#d8c49b] bg-[#f8f2e8] text-xl text-[#a88962] transition duration-500 group-hover:scale-110">
+            💍
+          </div>
+
+          {/* STARS */}
+
+          <div className="mb-3 text-[10px] tracking-[0.18em] text-[#b49a72]">
+            ★ ★ ★ ★ ★
+          </div>
+
+          {/* REVIEW */}
+
+          <p className="text-xs leading-6 text-[#665d52]">
+            “We absolutely loved the experience.
+            Every picture beautifully captures our love and happiness.”
+          </p>
+
+          {/* DIVIDER */}
+
+          <div className="my-4 flex items-center justify-center gap-2">
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+            <span className="text-[10px] text-[#a88962]">✦</span>
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+          </div>
+
+          {/* NAME */}
+
+        <div className="mt-4 flex items-center gap-3">
+
+  {/* Profile Icon */}
+  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#a66a2b] text-sm font-semibold text-white">
+    pr
+  </div>
+
+  {/* Name */}
+  <div>
+     <h3 className="font-serif text-base text-[#4f473d]">
+            priya & ankit
+          </h3>
+
+          <p className="mt-1 text-[8px] uppercase tracking-[0.25em] text-[#a88962]">
+            Pre-Wedding
+          </p>
+  </div>
+
+</div>
+
+        </div>
+
+      </div>
+
+
+      {/* ================= BIRTHDAY ================= */}
+
+      <div className="group relative">
+
+        <div className="relative h-full bg-[#fffdfa] px-5 py-6 text-center shadow-[0_8px_25px_rgba(100,75,45,0.09)] ring-1 ring-[#e6dccb] transition duration-500 group-hover:-translate-y-1.5 group-hover:shadow-[0_15px_30px_rgba(100,75,45,0.16)]">
+
+          {/* ICON */}
+
+          <div className="mx-auto mb-3 flex h-11 w-11 items-center justify-center rounded-full border border-[#d8c49b] bg-[#f8f2e8] text-xl text-[#a88962] transition duration-500 group-hover:scale-110">
+            🎂
+          </div>
+
+          {/* STARS */}
+
+          <div className="mb-3 text-[10px] tracking-[0.18em] text-[#b49a72]">
+            ★ ★ ★ ★ ★
+          </div>
+
+          {/* REVIEW */}
+
+          <p className="text-xs leading-6 text-[#665d52]">
+            “The pictures turned our celebration into beautiful
+            memories. Every smile and little detail was captured perfectly.”
+          </p>
+
+          {/* DIVIDER */}
+
+          <div className="my-4 flex items-center justify-center gap-2">
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+            <span className="text-[10px] text-[#a88962]">✧</span>
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+          </div>
+
+          {/* NAME */}
+
+         <div className="mt-4 flex items-center gap-3">
+
+  {/* Profile Icon */}
+  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#a66a2b] text-sm font-semibold text-white">
+    a
+  </div>
+
+  {/* Name */}
+  <div>
+     <h3 className="font-serif text-base text-[#4f473d]">
+            Aditi mehta
+          </h3>
+
+          <p className="mt-1 text-[8px] uppercase tracking-[0.25em] text-[#a88962]">
+            Pre-Wedding
+          </p>
+  </div>
+
+</div>
+
+        </div>
+
+      </div>
+
+
+      {/* ================= TRAVEL ================= */}
+
+      <div className="group relative lg:-translate-y-3">
+
+        <div className="relative h-full bg-[#fffdfa] px-5 py-6 text-center shadow-[0_8px_25px_rgba(100,75,45,0.09)] ring-1 ring-[#e6dccb] transition duration-500 group-hover:-translate-y-1.5 group-hover:shadow-[0_15px_30px_rgba(100,75,45,0.16)]">
+
+          {/* ICON */}
+
+          <div className="mx-auto mb-3 flex h-11 w-11 items-center justify-center rounded-full border border-[#d8c49b] bg-[#f8f2e8] text-xl text-[#a88962] transition duration-500 group-hover:scale-110">
+            ✈
+          </div>
+
+          {/* STARS */}
+
+          <div className="mb-3 text-[10px] tracking-[0.18em] text-[#b49a72]">
+            ★ ★ ★ ★ ★
+          </div>
+
+          {/* REVIEW */}
+
+          <p className="text-xs leading-6 text-[#665d52]">
+            “From beautiful locations to candid moments,
+            every frame tells a story we will always remember.”
+          </p>
+
+          {/* DIVIDER */}
+
+          <div className="my-4 flex items-center justify-center gap-2">
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+            <span className="text-[10px] text-[#a88962]">❧</span>
+            <span className="h-px w-6 bg-[#d8c49b]"></span>
+          </div>
+
+          {/* NAME */}
+
+         <div className="mt-4 flex items-center gap-3">
+
+  {/* Profile Icon */}
+  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#a66a2b] text-sm font-semibold text-white">
+    nk
+  </div>
+
+  {/* Name */}
+  <div>
+     <h3 className="font-serif text-base text-[#4f473d]">
+            priya & rohan
+          </h3>
+
+          <p className="mt-1 text-[8px] uppercase tracking-[0.25em] text-[#a88962]">
+            Pre-Wedding
+          </p>
+  </div>
+
+</div>
+
+      </div>
+
+    </div>
+
+
+    {/* ================= SIGNATURE ================= */}
+
+    <div className="mt-8 text-center">
+
+      <p className="-rotate-2 font-script text-xl text-[#88755d]">
+        Thank you for trusting us with your memories ♡
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
 
         
 

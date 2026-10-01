@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import ImagePre from '../assets/imagepre.webp'
-import ImagePre1 from '../assets/pre1.webp'
-import ImagePre2 from '../assets/pre2.webp'
-import ImagePre3 from '../assets/pre3.webp'
-import ImagePre4 from '../assets/pre5.webp'
+import ImagePre from '../assets/imagetravel.webp'
+import ImagePre1 from '../assets/travel1.webp'
+import ImagePre2 from '../assets/travel2.webp'
+import ImagePre3 from '../assets/travel3.webp'
+import ImagePre4 from '../assets/travel4.webp'
 import ImagePre5 from '../assets/pre6.webp'
 
 
@@ -64,7 +64,7 @@ const PreWedding = () => {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         >
-          <source src="/video4.mp4" type="video/mp4" />
+          <source src="/video1.mp4" type="video/mp4" />
         </video>
 
         {/* Dark Overlay */}
@@ -81,7 +81,7 @@ const PreWedding = () => {
 
             <p className="mb-3 text-[10px] uppercase tracking-[0.4em]">
 
-              Pre Wedding
+               travel
 
               <span className="ml-3 inline-block h-px w-10 bg-[#e8d5b0]"></span>
 
@@ -91,7 +91,7 @@ const PreWedding = () => {
             {/* Main Heading */}
 
             <h1 className="font-serif text-5xl leading-tight md:text-7xl">
-              Pre Wedding
+               travel
             </h1>
 
 
@@ -340,7 +340,7 @@ const PreWedding = () => {
           <div className="mb-10 text-center">
 
             <p className="text-[10px] uppercase tracking-[0.4em] text-gray-500">
-              Pre Wedding Gallery
+               travel Gallery
             </p>
 
             <h2 className="mt-2 font-serif text-3xl text-gray-900 md:text-4xl">

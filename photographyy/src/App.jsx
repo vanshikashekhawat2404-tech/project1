@@ -7,6 +7,10 @@ import Contact from './Pages/Contact'
 import Home from './Pages/Home'
 import Portfolio from './Pages/Portfolio'
 import PreWedding from './Pages/PreWedding'
+import Birthday from './Pages/Birthday'
+import Anniversary from './Pages/Anniversary'
+import Wedding from './Pages/Wedding'
+import Travel from './Pages/Travel'
 
 
 const router = createBrowserRouter([
@@ -28,6 +32,26 @@ const router = createBrowserRouter([
        {
         path: 'portfolio/pre-wedding',
         element: <PreWedding />
+      },
+
+      {
+        path:'portfolio/birthday',
+        element:<Birthday/>
+      },
+
+      {
+        path:'portfolio/anniversary',
+        element:<Anniversary/>
+      },
+
+      {
+        path:'portfolio/wedding',
+        element:<Wedding/>
+      },
+      
+      {
+        path:'portfolio/travel',
+        element:<Travel/>
       },
 
       {
